@@ -1,0 +1,25 @@
+{
+  "name": "minimally",
+  "version": "1.0.0",
+  "description": "Minimal key-value store and change event subscription",
+  "main": "dist/minimally.cjs.js",
+  "module": "dist/minimally.esm.js",
+  "browser": "dist/minimally.umd.js",
+  "test": "dist/test.cjs.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.66.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node dist/test.cjs.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/msand/minimally.git",
+  "author": "Mikael Sand <msand@abo.fi>",
+  "license": "MIT"
+}
