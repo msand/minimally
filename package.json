@@ -1,6 +1,6 @@
 {
   "name": "minimally",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal key-value store and event subscription",
   "main": "dist/minimally.cjs.js",
   "module": "dist/minimally.esm.js",
